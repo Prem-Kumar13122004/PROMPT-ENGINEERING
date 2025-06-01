@@ -185,6 +185,7 @@ understand various domains, topics, and language nuances. However, acquiring and
 labeling (when required) can be time-consuming and expensive.Moreover, ensuring data diversity and addressing biases present in the data are essential to prevent models from perpetuating harmful
 stereotypes or producing unintended consequences.
 
+
 Compute resources:
 
 Scaling compute resources involves using more powerful hardware (such as GPUs or TPUs) and parallelizing the training process across multiple devices or clusters. This enables LLMs to be
@@ -192,12 +193,17 @@ trained faster and more efficiently, allowing researchersto experiment with diff
 financial costs, and environmental concerns. Additionally, access to such resources may be limited for smaller organizations or individual researchers, potentially widening the gap between well-funded 
 institutions and others in the AI research community.
 
+
 Distributed training:
 
 Employing distributed training techniques allows LLMs to be trained across multiple devices or clusters, making it possible to handle larger models and datasets efficiently. This approach can significantly 
 reduce training time and enable better exploration of model architectures and hyperparameters. However, distributed training comes with its own set of challenges, such as increased communication 
 overhead, synchronization issues, and the need for efficient algorithms to handle data and model parallelism. Moreover, implementing distributed training requires expertise in both machine learning and 
 distributed systems, which can be a barrier for smaller teams or individual researchers.
+
+
+
+
 
 
 
