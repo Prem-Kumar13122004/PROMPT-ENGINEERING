@@ -145,7 +145,9 @@ information, answer questions, or perform tasks for users through conversational
 
 ## 4. Generative AI impact of scaling in LLMs.
 
+
 ![image](https://github.com/user-attachments/assets/e061635c-9824-4a99-8312-953130920ccd)
+
 
 In the rapidly evolving world of artificial intelligence, large language models (LLMs) have emerged as a game-changing force, revolutionizing the way we interact with technology and transforming countless 
 industries. These powerful models can perform a vast array of tasks, from text generation and translation to question-answering and summarization.However, unlocking the full potential of these LLMs requires a deep 
@@ -153,6 +155,7 @@ understanding of how to effectively scale these LLMs, ensuring optimal performan
 mastering this aspect is essential for anyone working in the AI domain.Asthe complexity and size of LLMs continue to grow, the importance of scaling cannot be overstated. 
 It plays a pivotal role in improving a model’s performance, generalization, and capacity to learn from massive datasets. By scaling LLMs effectively, researchers and practitioners can unlock
 unprecedented levels of AI capabilities, paving the way for innovative applications and groundbreaking solutions.
+
 
 What are Foundational LLM Models?
 
@@ -167,16 +170,19 @@ performance on specific tasks,such as text classification,sentiment analysis, qu
 foundation LLMs greatly reduce the amount of data, time, and computational resources required for training and deploying AI solutions, making them a cornerstone for many applications in natural language 
 processing and beyond.
 
+
 Scaling Techniques for Foundational LLMs
 
 In the context of Large Language Models (LLMs),scaling techniques primarily involve increasing the model size, expanding the training data, and utilizing more compute resources to improve their performance and 
 capabilities. The following are the details for some of these techniques along with some of the associated challenges.
+
 
 Model size:
 
 Scaling the model size typically involves increasing the number of layers and parameters in the transformer neural network architecture. Larger language models have a higher capacity to learn and 
 represent complex patterns in the data. However, increasing the model size comes with challenges such as longer training times, higher computational costs, and the possibility of overfitting, especially when
 training data is limited. Additionally, larger models may require specialized hardware and optimizations to manage memory and computational constraints effectively.
+
 
 Training data volume:
 
@@ -200,6 +206,8 @@ Employing distributed training techniques allows LLMs to be trained across multi
 reduce training time and enable better exploration of model architectures and hyperparameters. However, distributed training comes with its own set of challenges, such as increased communication 
 overhead, synchronization issues, and the need for efficient algorithms to handle data and model parallelism. Moreover, implementing distributed training requires expertise in both machine learning and 
 distributed systems, which can be a barrier for smaller teams or individual researchers.
+
+
 
 
 
